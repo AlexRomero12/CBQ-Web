@@ -157,3 +157,36 @@ a:hover {
         padding-right: 0;
     }
 }
+
+.footerBox {
+    background-color: #222;
+    position: fixed;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.footerBox * {
+    width: 30%;
+}
+
+.ContactUs {
+    color: #FFFFFF;
+}
+
+.ContactUs * {
+    color: #FFFFFF;
+    padding: 2px;
+}
+
+
+.copyright {
+    margin: 0;
+    color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
+}
