@@ -6,41 +6,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <title>CBQ</title>
 </head>
 
 <body>
-    <!--Navbar-->
-    <nav>
-        <ul class="menu">
-            <li class="logo"><a href="#">CBQ</a></li>
-            <li class="item"><a href="#">Inicio</a></li>
-            <li class="item"><a href="#">Nosotros</a></li>
-            <li class="item"><a href="#">Psicologos</a></li>
-            <li class="item"><a href="#">Investigadores</a></li>
-            <li class="item"><a href="#">Cuestionario</a></li>
-            <li class="item"><a href="#">Contactenos</a> </li>
-            <li class="item button"><a href="#">Log In</a></li>
-            <li class="item button secondary"><a href="#">Sign Up</a></li>
-            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-        </ul>
-    </nav>
-    <!--Footer-->
-    <footer>
-        <div class="footerBox">
-            <p class="copyright">Todos los derechos reservados 2020 &copy; </p>
-            <div class="ContactUs">
-                <p>Contactenos:</p>
-                <p>Johan Romero</p>
-                <p>jsromero10@ucatolica.edu.co</p>
-                <p>Alexander Romero</p>
-                <p>baromero57@ucatolica.edu.co</p>
+    <header class="info">
+        <nav class="nav_info">
+            <div class="container nav_container">
+                <div class="logo">
+                    <h2 class="logo_name">CBQ<span class="point">.</span></h2>
+                </div>
+                <div class="links">
+                    <a href="" class="link">Inicio</a>
+                    <a href="" class="link">Perfiles</a>
+                    <a href="" class="link">Informacion</a>
+                    <a href="" class="link link--active">Contacto</a>
+                </div>
+            </div>
+        </nav>
+        <section class="container info_main">
+            <div class="info_texts">
+                <h1 class="title">Cuestionario <span class="title--active">ciberbullying</span></h1>
+                <p class="copy">¿Deseas resolver </p>
+                <p class="copy copy_active">el registrarte?</p>
+                <a href="#" class="register">Registrate</a>
+            </div>
+            <img src="Imagenes/2.jpg" class="mockup">
+        </section>
+    </header>
+    <main>
+        <section class="rol">
+            <div class="container">
+                <h2 class="subtitle">Perfiles<span class="point">.</span></h2>
+                <p class="copy_section">¿Qué perfil tienes?</p>
+
+                <article class="container-cards">
+                    <div class="card">
+                        <img class="card_img" src="Imagenes/2.jpg" alt="">
+                        <div class="cards_text">
+                            <p class="card_list">Resuelve el cuestionario</p>
+                            <h3 class="card_title">Estudiante</h3>
+                            <p class="card_copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto
+                                esse
+                                voluptate eaque? Nam est hic laborum repellendus? Reiciendis, ullam.</p>
+                            <a href="#" class="card_button">Registrate</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card_img" src="Imagenes/2.jpg" alt="">
+                        <div class="cards_text">
+                            <p class="card_list">Resultados de pacientes</p>
+                            <h3 class="card_title">Psicólogo</h3>
+                            <p class="card_copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto
+                                esse
+                                voluptate eaque? Nam est hic laborum repellendus? Reiciendis, ullam.</p>
+                            <a href="#" class="card_button">Ingresar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card_img" src="Imagenes/2.jpg" alt="">
+                        <div class="cards_text">
+                            <p class="card_list">Datos y estadisticas</p>
+                            <h3 class="card_title">Investigador</h3>
+                            <p class="card_copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto
+                                esse
+                                voluptate eaque? Nam est hic laborum repellendus? Reiciendis, ullam.</p>
+                            <a href="#" class="card_button">Consultar</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="information container">
+            <div class="container">
+                <h2 class="subtitile">Informacion<span class="point">.</span></h2>
+                <p class="copy_section">¿Qué es el CBQ y el CBQ-V?</p>
+                <article class="container-bg">
+                    <div class="card">
+                        <div class="cards_text">
+                            <h3 class="card_title">CBQ</h3>
+                            <p class="card_list">Cuestionario Ciberbullying</p>
+                            <p class="card_copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto
+                                esse
+                                voluptate eaque? Nam est hic laborum repellendus? Reiciendis, ullam.</p>
+                            <a href="#" class="card_button">Más información</a>
+                        </div>
+                    </div>
+                    <div class="background">
+                        <img src="Imagenes/2.jpg" alt="" class="background_img">
+                        <div class="background_text">
+                            <h3 class="background_copy">Informacion sobre que significa CBQ</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cards_text">
+                            <h3 class="card_title">CBQ-V</h3>
+                            <p class="card_list">Cuestionario de ciberacoso para victimización</p>
+                            <p class="card_copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto
+                                esse
+                                voluptate eaque? Nam est hic laborum repellendus? Reiciendis, ullam.</p>
+                            <a href="#" class="card_button">Más información</a>
+                        </div>
+                    </div>
+                    <div class="background">
+                        <img src="Imagenes/2.jpg" alt="" class="background_img">
+                        <div class="background_text">
+                            <h3 class="background_copy">Informacion sobre que significa CBQ-V</h3>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contact">
+            <div class="item__contact">
+                <i class='bx bx-copyright contact__icon' ></i>
+                <h3 class="contact__title">CBQ CBQ-V</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bx-mail-send contact__icon' ></i>
+                <h3 class="contact__title">baromero@ucatolica.edu.co</h3>
+                <h3 class="contact__title">jsromero@ucatolica.edu.co</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bxs-edit-location contact__icon' ></i>
+                <h3 class="contact__title">Universidad Catolica de Colombia</h3>
+            </div>
+            <div class="item__contact item__contact--gold">
+                <i class='bx bxs-chat contact__icon contact__icon--modifier' ></i>
+                <h3 class="contact__title">Contactanos ahora</h3>
             </div>
         </div>
     </footer>
-    <script src="https://kit.fontawesome.com/40111bf270.js" crossorigin="anonymous"></script>
-    <script src="Js/index.js"></script>
 </body>
 
 </html>
